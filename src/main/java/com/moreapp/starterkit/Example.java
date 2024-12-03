@@ -17,6 +17,7 @@ public class Example {
 
     @SuppressWarnings("unchecked")
     public static void main(String[] args) throws IOException {
+        
         final Properties properties = new Properties();
         properties.load(Example.class.getResourceAsStream("/com/moreapp/starterkit/api.properties"));
         final String endpoint = properties.getProperty("endpoint");
